@@ -1,4 +1,3 @@
-# Photography
 <html>
   <body>
     <h1>My Photography Website</h1>
