@@ -6,7 +6,7 @@
     <p>My name is David Fernandez. I recently started photography as a hobby. I took a photography class in college and I while I am not aiming for a career in photography I do want to improve my skills.</p>
     <hr>
     <h3>My Best Photographs</h3>
-    <img src="Photo Class/Exports/Best/img_1256B.jpg" width="498">
+    <img src="img_1256B.jpg" width="498">
     <img src="Photo Class/Exports/Best/img_1149B.jpg" width="498">
     <img src="Photo Class/Exports/Best/img_0907B.jpg" width="498">
     <img src="Photo Class/Exports/Best/img_0850B.jpg" width="498">
