@@ -123,6 +123,6 @@
     <img src="Photo Class/Exports/2024-12-30/img_0505.jpg" width="297">
     <img src="Photo Class/Exports/2024-12-30/img_0513.jpg" width="297">
     <img src="Photo Class/Exports/2024-12-30/img_0522.jpg" width="297">
-    <img src="Photo Class/Exports/2024-12-30/img_0525.jpg" width="297">
+    <img src="img_0525.jpg" width="297">
   </body>
 </html>
