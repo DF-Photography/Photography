@@ -6,15 +6,15 @@
     <p>My name is David Fernandez. I recently started photography as a hobby. I took a photography class in college and I while I am not aiming for a career in photography I do want to improve my skills.</p>
     <hr>
     <h3>My Best Photographs</h3>
-    <img src="img_1256B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_1149B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_0907B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_0850B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_0801B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_0752B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_0660B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_0550B.jpg" width="498">
-    <img src="Photo Class/Exports/Best/img_0488B.jpg" width="498">
+    <img src="https://drive.google.com/uc?export=view&id=1TJgHhdxQOP905zsVKTGXGLj57gJLgsST">
+    <img src="https://drive.google.com/uc?export=view&id=1CfipRs_Ct-hRVC8-FsVj7iIIlLGNZ-CU">
+    <img src="https://drive.google.com/uc?export=view&id=18hWSOzIQBdZtg4R8RNk9_0IKdjeVN5CY">
+    <img src="https://drive.google.com/uc?export=view&id=113nqMnIE9SmEHuZbUGNEr2MajtKvtSXh">
+    <img src="https://drive.google.com/uc?export=view&id=1dbD9-osm9HO-miRJvMLDEVdgp4o_U7Vu">
+    <img src="https://drive.google.com/uc?export=view&id=1jyVDSw_ho-G-Dx77MF6xHsIC6PQU0ylo">
+    <img src="https://drive.google.com/uc?export=view&id=1eG9HTBk2_UUsQFJ6RFMgvAogfF-3D9sw">
+    <img src="https://drive.google.com/uc?export=view&id=1G7qhqLw6X1XUArhfu862pnppdRSZwVp2">
+    <img src="https://drive.google.com/uc?export=view&id=11JCfzyXzmydlVxJtkZyeJzrJpwZFQ_9x">
     <hr>
     <h3>Project 9: LaBagh Woods</h3>
     <p> September 1st, 2025- I was scared that most of my pictures would just be green. Thankfully we were able to find this bridge. I really like how the grafitti gives an abandoned vibe.</p>
