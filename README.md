@@ -6,15 +6,15 @@
     <p>My name is David Fernandez. I recently started photography as a hobby. I took a photography class in college and I while I am not aiming for a career in photography I do want to improve my skills.</p>
     <hr>
     <h3>My Best Photographs</h3>
-    <img src="Best/IMG_0488_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_0550_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_0660_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_0752_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_0801_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_0850_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_0907_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_1149_Best.jpg" class="one-third-width">
-    <img src="Best/IMG_1256_Best.jpg" class="one-third-width">
+    <img src="Best/IMG_0488_Best.jpg" width="33%">
+    <img src="Best/IMG_0550_Best.jpg" width="33%">
+    <img src="Best/IMG_0660_Best.jpg" width="33%">
+    <img src="Best/IMG_0752_Best.jpg" width="33%">
+    <img src="Best/IMG_0801_Best.jpg" width="33%">
+    <img src="Best/IMG_0850_Best.jpg" width="33%">
+    <img src="Best/IMG_0907_Best.jpg" width="33%">
+    <img src="Best/IMG_1149_Best.jpg" width="33%">
+    <img src="Best/IMG_1256_Best.jpg" width="33%">
     <hr>
     <h3>Project 9: LaBagh Woods</h3>
     <p> September 1st, 2025- I was scared that most of my pictures would just be green. Thankfully we were able to find this bridge. I really like how the grafitti gives an abandoned vibe.</p>
