@@ -6,15 +6,15 @@
     <p>My name is David Fernandez. I recently started photography as a hobby. I took a photography class in college and I while I am not aiming for a career in photography I do want to improve my skills.</p>
     <hr>
     <h3>My Best Photographs</h3>
-    <img src="images/best/img_0488.jpg" width="297">
-    <img src="" width="297">
-    <img src="" width="297">
-    <img src="" width="297">
-    <img src="" width="297">
-    <img src="" width="297">
-    <img src="" width="297">
-    <img src="" width="297">
-    <img src="" width="297">
+    <img src="images/img_0488_Best.jpg" width="297">
+    <img src="images/img_0550_Best.jpg" width="297">
+    <img src="images/img_0660_Best.jpg" width="297">
+    <img src="images/img_0752_Best.jpg" width="297">
+    <img src="images/img_0801_Best.jpg" width="297">
+    <img src="images/img_0850_Best.jpg" width="297">
+    <img src="images/img_0907_Best.jpg" width="297">
+    <img src="images/img_1149_Best.jpg" width="297">
+    <img src="images/img_1256_Best.jpg" width="297">
     <hr>
     <h3>Project 9: LaBagh Woods</h3>
     <p> September 1st, 2025- I was scared that most of my pictures would just be green. Thankfully we were able to find this bridge. I really like how the grafitti gives an abandoned vibe.</p>
