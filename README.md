@@ -127,6 +127,6 @@
     <img src="Project 1/IMG_0505.jpg" width="33%">
     <img src="Project 1/IMG_0513.jpg" width="33%">
     <img src="Project 1/IMG_0522.jpg" width="33%">
-    <img src="Project 1/IMG_0525.jpg" width="33%" class="center">
+    <img src="Project 1/IMG_0525.jpg" class="center">
   </body>
 </html>
