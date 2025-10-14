@@ -116,17 +116,8 @@
     <img src="Project 2/IMG_0574.jpg" width="33%" loading="lazy">
     <img src="Project 2/IMG_0576.jpg" width="33%" loading="lazy">
     <img src="Project 2/IMG_0577.jpg" class="center" loading="lazy">
-    <h3>Project 1: Brownline/Downtown</h3>
+    <a href=”Project1.html”> Project 1: Brownlinw/Downtown </a>
     <p> December 30th, 2024- This is my first attempt at a personal photography project. I completly forgot to set my ISO to 400. Most of these photos were taken from the brown line CTA. You can tell how dirty the windows were.</p>
-    <img src="Project 1/IMG_0487.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0488.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0489.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0492.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0499.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0501.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0505.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0513.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0522.jpg" width="33%" loading="lazy">
-    <img src="Project 1/IMG_0525.jpg" class="center" loading="lazy">
+    <img src="Best/IMG_0488_Best.jpg" width="50%" loading="lazy">
   </body>
 </html>
