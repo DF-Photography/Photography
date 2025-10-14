@@ -106,8 +106,8 @@
     <img src="Project 3/IMG_0668.jpg" class="center">
     <h3>Project 2: Sidewalk</h3>
     <p> April 28th, 2025- During my photography class, we had an assignment where we had to take similar subjects and take the same pictures. Just changing out the subject. For that assignment I took photos of bridges. I wanted to do something similiar so on my way to class I would take pictures of the path ahead of me before crossing the road.</p>
-    <img src="Project 2/IMG_0545.jpg" width="33%">
     <img src="Project 2/IMG_0549.jpg" width="33%">
+    <img src="Project 2/IMG_0550.jpg" width="33%">
     <img src="Project 2/IMG_0553.jpg" width="33%">
     <img src="Project 2/IMG_0561.jpg" width="33%">
     <img src="Project 2/IMG_0563.jpg" width="33%">
