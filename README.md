@@ -114,15 +114,15 @@
     <img src="Photo Class/Exports/2025-04-28/img_0577.jpg" width="297">
     <h3>Project 1: Brownline/Downtown</h3>
     <p> December 30th, 2024- This is my first attempt at a personal photography project. I completly forgot to set my ISO to 400. Most of these photos were taken from the brown line CTA. You can tell how dirty the windows were.</p>
-    <img src="Project 1/IMG_0487.jpg" width="297">
-    <img src="Project 1/IMG_0488.jpg" width="297">
-    <img src="Project 1/IMG_0489.jpg" width="297">
-    <img src="Project 1/IMG_0492.jpg" width="297">
-    <img src="Project 1/IMG_0499.jpg" width="297">
-    <img src="Project 1/IMG_0501.jpg" width="297">
-    <img src="Project 1/IMG_0505.jpg" width="297">
-    <img src="Project 1/IMG_0513.jpg" width="297">
-    <img src="Project 1/IMG_0522.jpg" width="297">
-    <img src="Project 1/IMG_0525.jpg" width="297">
+    <img src="Project 1/IMG_0487.jpg" width="33%">
+    <img src="Project 1/IMG_0488.jpg" width="33%">
+    <img src="Project 1/IMG_0489.jpg" width="33%">
+    <img src="Project 1/IMG_0492.jpg" width="33%">
+    <img src="Project 1/IMG_0499.jpg" width="33%">
+    <img src="Project 1/IMG_0501.jpg" width="33%">
+    <img src="Project 1/IMG_0505.jpg" width="33%">
+    <img src="Project 1/IMG_0513.jpg" width="33%">
+    <img src="Project 1/IMG_0522.jpg" width="33%">
+    <img src="Project 1/IMG_0525.jpg" width="33%" class="center">
   </body>
 </html>
