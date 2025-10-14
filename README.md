@@ -1,15 +1,4 @@
 <html>
-  <head>
-    <style>
-      . center{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width= 33%;
-      }
-    </style>
-  </head>
-    
   <body>
     <h1>My Photography Website</h1>
     <hr>
