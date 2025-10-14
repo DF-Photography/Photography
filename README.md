@@ -1,4 +1,7 @@
 <html>
+  <head>
+    <title>my website</title>
+  </head>
   <body>
     <h1>My Photography Website</h1>
     <hr>
