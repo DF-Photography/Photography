@@ -44,7 +44,7 @@
     <h3>Project 2: Sidewalk</h3>
     <p> April 28th, 2025- During my photography class, we had an assignment where we had to take similar subjects and take the same pictures. Just changing out the subject. For that assignment I took photos of bridges. I wanted to do something similiar so on my way to class I would take pictures of the path ahead of me before crossing the road.</p>
     <img src="Best/IMG_0550_Best.jpg" width="50%" loading="lazy">
-    <a href="Project1.html"> Project 1: Brownlinw/Downtown </a>
+    <h3><a href="Project1.html"> Project 1: Brownlinw/Downtown </a></h3>
     <p> December 30th, 2024- This is my first attempt at a personal photography project. I completly forgot to set my ISO to 400. Most of these photos were taken from the brown line CTA. You can tell how dirty the windows were.</p>
     <img src="Best/IMG_0488_Best.jpg" width="50%" loading="lazy">
   </body>
