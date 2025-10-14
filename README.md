@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>my website</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>My Photography Website</h1>
