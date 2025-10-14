@@ -4,3 +4,13 @@
   margin-right: auto;
   width: 33%;
 }
+.responsive-photo {
+  width: 33%;      /* Default: 33% width on larger screens */
+}
+
+/* When the screen is 600px wide or smaller (typical phones) */
+@media (max-width: 600px) {
+  .responsive-photo {
+    width: 50%;
+  }
+}
