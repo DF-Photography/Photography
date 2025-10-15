@@ -39,5 +39,5 @@
       <img src="Best/IMG_0660_Best.jpg" loading="lazy" alt="Project 3">
       <img src="Best/IMG_0550_Best.jpg" loading="lazy" alt="Project 2">
       <img src="Best/IMG_0488_Best.jpg" loading="lazy" alt="Project 1">
-  </body>
+ </body>
 </html>
