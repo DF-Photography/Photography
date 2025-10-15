@@ -32,7 +32,7 @@
     <h3>About Me</h3>
     <p>My name is David Fernandez. I recently started photography as a hobby. I took a photography class in college and I while I am not aiming for a career in photography I do want to improve my skills.</p>
     <hr>
-    <h3>My Best Photographs</h3>
+    <h3>My Projects</h3>
     <div class="gallery">
       <a href="Project9.html"><img src="Best/IMG_1256_Best.jpg" loading="lazy" alt="Project 9"></a>
       <a href="Project8.html"><img src="Best/IMG_1149_Best.jpg" loading="lazy" alt="Project 8"></a>
