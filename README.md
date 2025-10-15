@@ -5,7 +5,7 @@
       .gallery {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
         gap: 10px;
         padding: 10px;
       }
