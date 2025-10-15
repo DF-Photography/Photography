@@ -14,3 +14,14 @@
     width: 50%;
   }
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;      /* allows wrapping to next line if needed */
+  gap: 10px;            /* space between photos */
+  justify-content: center;
+}
+
+.gallery img {
+  width: 48%;           /* two images per row */
+  height: auto;
+}
