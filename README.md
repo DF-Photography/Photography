@@ -9,6 +9,10 @@
         gap: 10px;
         padding: 10px;
       }
+      .gallery a {
+        display: inline-block;
+        width: 48%;
+      }
       .gallery img {
         width: 48%;
         height: auto;
@@ -30,33 +34,15 @@
     <hr>
     <h3>My Best Photographs</h3>
     <div class="gallery">
-      <a href="Project9.html">
-      <img src="Best/IMG_1256_Best.jpg" loading="lazy" alt="Project 9">
-      </a>
-      <a href="Project8.html">
-      <img src="Best/IMG_1149_Best.jpg" loading="lazy" alt="Project 8">
-      </a>
-      <a href="Project7.html">
-      <img src="Best/IMG_0907_Best.jpg" loading="lazy" alt="Project 7">
-      </a>
-      <a href="Project6.html">
-      <img src="Best/IMG_0850_Best.jpg" loading="lazy" alt="Project 6">
-      </a>
-      <a href="Project5.html">
-      <img src="Best/IMG_0801_Best.jpg" loading="lazy" alt="Project 5">
-      </a>
-      <a href="Project4.html">
-      <img src="Best/IMG_0752_Best.jpg" loading="lazy" alt="Project 4">
-      </a>
-      <a href="Project3.html">
-      <img src="Best/IMG_0660_Best.jpg" loading="lazy" alt="Project 3">
-      </a>
-      <a href="Project2.html">
-      <img src="Best/IMG_0550_Best.jpg" loading="lazy" alt="Project 2">
-      </a>
-      <a href="Project1.html">
-      <img src="Best/IMG_0488_Best.jpg" loading="lazy" alt="Project 1">
-      </a>
+      <a href="Project9.html"><img src="Best/IMG_1256_Best.jpg" loading="lazy" alt="Project 9"></a>
+      <a href="Project8.html"><img src="Best/IMG_1149_Best.jpg" loading="lazy" alt="Project 8"></a>
+      <a href="Project7.html"><img src="Best/IMG_0907_Best.jpg" loading="lazy" alt="Project 7"></a>
+      <a href="Project6.html"><img src="Best/IMG_0850_Best.jpg" loading="lazy" alt="Project 6"></a>
+      <a href="Project5.html"><img src="Best/IMG_0801_Best.jpg" loading="lazy" alt="Project 5"></a>
+      <a href="Project4.html"><img src="Best/IMG_0752_Best.jpg" loading="lazy" alt="Project 4"></a>
+      <a href="Project3.html"><img src="Best/IMG_0660_Best.jpg" loading="lazy" alt="Project 3"></a>
+      <a href="Project2.html"><img src="Best/IMG_0550_Best.jpg" loading="lazy" alt="Project 2"></a>
+      <a href="Project1.html"><img src="Best/IMG_0488_Best.jpg" loading="lazy" alt="Project 1"></a>
     </div>
   </body>
 </html>
