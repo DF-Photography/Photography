@@ -38,7 +38,9 @@
       <img src="Best/IMG_0752_Best.jpg" loading="lazy" alt="Project 4">
       <img src="Best/IMG_0660_Best.jpg" loading="lazy" alt="Project 3">
       <img src="Best/IMG_0550_Best.jpg" loading="lazy" alt="Project 2">
+      <a href="Project1.html">
       <img src="Best/IMG_0488_Best.jpg" loading="lazy" alt="Project 1">
+      </a>
     </div>
   </body>
 </html>
