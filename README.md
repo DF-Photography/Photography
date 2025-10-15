@@ -14,7 +14,7 @@
         width: 48%;
       }
       .gallery img {
-        width: 48%;
+        width: 100%;
         height: auto;
         border-radius: 8px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.2);
