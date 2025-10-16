@@ -2,22 +2,58 @@
   <head>
     <title> Project 1: Brownline/Downtown </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        margin: 0;
+      }
+      .markdown-body {
+        max-width: 900px;
+        padding: 20px;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px;
+        padding: 10px 0;
+      }
+      .gallery img {
+        width: 48%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease;
+      }
+      .gallery img:hover {
+        transform: scale(1.03);
+      }
+      @media (max-width: 600px) {
+        .gallery img {
+          width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <article class="markdown-body">
       <h1>Project 1: Brownline/Downtown</h1>
       <hr>
-      <p>December 30th, 2024- This is my first attempt at a personal photography project. I completly forgot to set my ISO to 400. Most of these photos were taken from the brown line CTA. You can tell how dirty the windows were.</p>
-      <img src="Project 1/IMG_0487.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0488.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0489.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0492.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0499.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0501.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0505.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0513.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0522.jpg" width="33%" loading="lazy">
-      <img src="Project 1/IMG_0525.jpg" width="33%" loading="lazy"><br>
+      <p><em>December 30th, 2024</em>- This is my first attempt at a personal photography project. I completly forgot to set my ISO to 400. Most of these photos were taken from the brown line CTA. You can tell how dirty the windows were.</p>
+      <div class="gallery">
+        <img src="Project 1/IMG_0487.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0488.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0489.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0492.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0499.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0501.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0505.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0513.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0522.jpg" width="33%" loading="lazy">
+        <img src="Project 1/IMG_0525.jpg" width="33%" loading="lazy"><br>
+      </div>
       <a href="https://df-photography.github.io/Photography"> Back to Home </a>
     </article>
   </body>
