@@ -34,6 +34,7 @@
     <hr>
     <h3>My Projects</h3>
     <div class="gallery">
+      <a href="Project10.html"><img src="Best/IMG_1307B.jpg" loading="lazy" alt="Project 10"></a>
       <a href="Project9.html"><img src="Best/IMG_1256_Best.jpg" loading="lazy" alt="Project 9"></a>
       <a href="Project8.html"><img src="Best/IMG_1149_Best.jpg" loading="lazy" alt="Project 8"></a>
       <a href="Project7.html"><img src="Best/IMG_0907_Best.jpg" loading="lazy" alt="Project 7"></a>
