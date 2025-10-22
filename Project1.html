@@ -37,6 +37,66 @@
           width: 100%;
         }
       }
+      
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 10;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.9);
+      }
+      
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+      }
+
+      @keyframes zoom {
+        from {transform: scale(0)}
+        to {transform: scale(1)}
+      }
+      .modal-content, #caption {
+        animation: zoom 0.6s;
+      }
+
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .modal-content {
+          width: 100%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -45,18 +105,49 @@
       <hr>
       <p><em>December 30th, 2024</em>- This is my first attempt at a personal photography project. I completly forgot to set my ISO to 400. Most of these photos were taken from the brown line CTA. You can tell how dirty the windows were.</p>
       <div class="gallery">
-        <img src="Project 1/IMG_0487.jpg" loading="lazy">
-        <img src="Project 1/IMG_0488.jpg" loading="lazy">
-        <img src="Project 1/IMG_0489.jpg" loading="lazy">
-        <img src="Project 1/IMG_0492.jpg" loading="lazy">
-        <img src="Project 1/IMG_0499.jpg" loading="lazy">
-        <img src="Project 1/IMG_0501.jpg" loading="lazy">
-        <img src="Project 1/IMG_0505.jpg" loading="lazy">
-        <img src="Project 1/IMG_0513.jpg" loading="lazy">
-        <img src="Project 1/IMG_0522.jpg" loading="lazy">
-        <img src="Project 1/IMG_0525.jpg" loading="lazy">
+        <img src="Project 1/IMG_0487.jpg" loading="lazy" alt="Photo1">
+        <img src="Project 1/IMG_0488.jpg" loading="lazy" alt="Photo2">
+        <img src="Project 1/IMG_0489.jpg" loading="lazy" alt="Photo3">
+        <img src="Project 1/IMG_0492.jpg" loading="lazy" alt="Photo4">
+        <img src="Project 1/IMG_0499.jpg" loading="lazy" alt="Photo5">
+        <img src="Project 1/IMG_0501.jpg" loading="lazy" alt="Photo6">
+        <img src="Project 1/IMG_0505.jpg" loading="lazy" alt="Photo7">
+        <img src="Project 1/IMG_0513.jpg" loading="lazy" alt="Photo8">
+        <img src="Project 1/IMG_0522.jpg" loading="lazy" alt="Photo9">
+        <img src="Project 1/IMG_0525.jpg" loading="lazy" alt="Photo10">
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
       </div>
       <a href="https://df-photography.github.io/Photography"> Back to Photography Homepage </a>
     </article>
+    <script>
+      var modal = document.getElementById("myModal");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+
+      var images = document.querySelectorAll(".gallery img");
+      images.forEach(function(img) {
+        img.addEventListener("click", function() {
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt || "";
+        });
+      });
+
+      var span = document.getElementsByClassName("close")[0];
+
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      modal.onclick = function(event) {
+        if (event.target === modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
