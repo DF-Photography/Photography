@@ -2,6 +2,27 @@
   <head>
     <title>my website</title>
     <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        background-color: #f8f8f8;
+        display: flex;
+        justify-content: center;
+      }
+      body {
+        align-items: flex-start;
+      }
+      .markdown-body{
+        width: 100%;
+        max-width: 900px;
+        background-color: #ffffff;
+        padding: 20 px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 8px
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
       .gallery {
         display: flex;
         flex-wrap: wrap;
