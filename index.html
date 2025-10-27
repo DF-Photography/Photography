@@ -25,6 +25,7 @@
         border-radius: 8px;
         min-height: 100vh;
       }
+
       .gallery {
         display: flex;
         flex-wrap: wrap;
@@ -32,6 +33,7 @@
         gap: 10px;
         padding: 10px;
       }
+
       .gallery a {
         position: relative;
         display: inline-block;
@@ -39,18 +41,20 @@
         border-radius: 8px;
         overflow: hidden;
       }
+
       .gallery img {
         width: 100%;
         height: auto;
         aspect-ratio: 4/3;
-        display: block;
         object-fit: cover;
+        display: block;
         transition: transform 0.3s ease;
       }
+
       .overlay {
         position: absolute;
         bottom: 0;
-        background: rgba (0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.5);
         color: white;
         width: 100%;
         opacity: 0;
@@ -59,20 +63,24 @@
         text-align: center;
         padding: 12px;
       }
-      .gallery a:hover .overlay; {
+
+      .gallery a:hover .overlay {
         opacity: 1;
       }
-      .gallery img:hover img {
+
+      .gallery a:hover img {
         transform: scale(1.03);
       }
+
       @media (max-width: 600px) {
         .markdown-body {
           padding: 10px;
         }
-        .gallery a{
+        .gallery a {
           width: 100%;
         }
       }
+
       footer {
         text-align: center;
         font-size: 0.9em;
@@ -90,47 +98,59 @@
       <hr>
       <h3>My Projects</h3>
       <div class="gallery">
+
         <a href="Project10.html">
           <img src="Best/IMG_1307B.jpg" loading="lazy" alt="Project 10: Street Corners">
           <div class="overlay">Project 10: Street Corners</div>
         </a>
+
         <a href="Project9.html">
           <img src="Best/IMG_1256_Best.jpg" loading="lazy" alt="Project 9: LaBagh Woods">
           <div class="overlay">Project 9: LaBagh Woods</div>
         </a>
+
         <a href="Project8.html">
           <img src="Best/IMG_1149_Best.jpg" loading="lazy" alt="Project 8: Nicholas J. Melas Centennial Fountain">
           <div class="overlay">Project 8: Nicholas J. Melas Centennial Fountain</div>
         </a>
+
         <a href="Project7.html">
           <img src="Best/IMG_0907_Best.jpg" loading="lazy" alt="Project 7: Chicago Riverwalk">
           <div class="overlay">Project 7: Chicago Riverwalk</div>
         </a>
+
         <a href="Project6.html">
           <img src="Best/IMG_0850_Best.jpg" loading="lazy" alt="Project 6: Navy Pier Flowers">
           <div class="overlay">Project 6: Navy Pier Flowers</div>
         </a>
+
         <a href="Project5.html">
           <img src="Best/IMG_0801_Best.jpg" loading="lazy" alt="Project 5: 606 Trail Streets">
           <div class="overlay">Project 5: 606 Trail Streets</div>
         </a>
+
         <a href="Project4.html">
           <img src="Best/IMG_0752_Best.jpg" loading="lazy" alt="Project 4: Ping Tom Memorial Park">
           <div class="overlay">Project 4: Ping Tom Memorial Park</div>
         </a>
+
         <a href="Project3.html">
           <img src="Best/IMG_0660_Best.jpg" loading="lazy" alt="Project 3: Downtown Turning Dark">
           <div class="overlay">Project 3: Downtown Turning Dark</div>
         </a>
+
         <a href="Project2.html">
           <img src="Best/IMG_0550_Best.jpg" loading="lazy" alt="Project 2: Sidewalk">
           <div class="overlay">Project 2: Sidewalk</div>
-        </a>   
+        </a>
+
         <a href="Project1.html">
           <img src="Best/IMG_0488_Best.jpg" loading="lazy" alt="Project 1: Brownline/Downtown">
           <div class="overlay">Project 1: Brownline/Downtown</div>
         </a>
+
       </div>
+
       <footer>
         © 2025 David Fernandez — All Rights Reserved
       </footer>
