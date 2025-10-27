@@ -6,6 +6,38 @@
     <meta name="description" content="Photography portfolio of David Fernandez — projects, images, and personal growth in photography.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
     <style>
+      * {box-sizing: border-box;}
+      .container {
+        position: relative;
+        width: 50%;
+        max-width: 300px;
+      }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
       html, body {
         height: 100%;
         margin: 0;
@@ -73,16 +105,28 @@
       <hr>
       <h3>My Projects</h3>
       <div class="gallery">
-        <a href="Project10.html"><img src="Best/IMG_1307B.jpg" loading="lazy" alt="Project 10: Street Corners"></a>
-        <a href="Project9.html"><img src="Best/IMG_1256_Best.jpg" loading="lazy" alt="Project 9: LaBagh Woods"></a>
-        <a href="Project8.html"><img src="Best/IMG_1149_Best.jpg" loading="lazy" alt="Project 8: Nicholas J. Melas Centennial Fountain"></a>
-        <a href="Project7.html"><img src="Best/IMG_0907_Best.jpg" loading="lazy" alt="Project 7: Chicago Riverwalk"></a>
-        <a href="Project6.html"><img src="Best/IMG_0850_Best.jpg" loading="lazy" alt="Project 6: Navy Pier Flowers"></a>
-        <a href="Project5.html"><img src="Best/IMG_0801_Best.jpg" loading="lazy" alt="Project 5: 606 Trail Streets"></a>
-        <a href="Project4.html"><img src="Best/IMG_0752_Best.jpg" loading="lazy" alt="Project 4: Ping Tom Memorial Park"></a>
-        <a href="Project3.html"><img src="Best/IMG_0660_Best.jpg" loading="lazy" alt="Project 3: Downtown Turning Dark"></a>
-        <a href="Project2.html"><img src="Best/IMG_0550_Best.jpg" loading="lazy" alt="Project 2: Sidewalk"></a>
-        <a href="Project1.html"><img src="Best/IMG_0488_Best.jpg" loading="lazy" alt="Project 1: Brownline/Downtown"></a>
+        <div class="container">
+          <a href="Project10.html"><img src="Best/IMG_1307B.jpg" loading="lazy" alt="Project 10: Street Corners"></a>
+          <div class="overlay">Project 10: Street Corners</div>
+          <a href="Project9.html"><img src="Best/IMG_1256_Best.jpg" loading="lazy" alt="Project 9: LaBagh Woods"></a>
+          <div class="overlay">Project 9: LaBagh Woods</div>
+          <a href="Project8.html"><img src="Best/IMG_1149_Best.jpg" loading="lazy" alt="Project 8: Nicholas J. Melas Centennial Fountain"></a>
+          <div class="overlay">Project 8: Nicholas J. Melas Centennial Fountain</div>
+          <a href="Project7.html"><img src="Best/IMG_0907_Best.jpg" loading="lazy" alt="Project 7: Chicago Riverwalk"></a>
+          <div class="overlay">Project 7: Chicago Riverwalk</div>
+          <a href="Project6.html"><img src="Best/IMG_0850_Best.jpg" loading="lazy" alt="Project 6: Navy Pier Flowers"></a>
+          <div class="overlay">Project 6: Navy Pier Flowers</div>
+          <a href="Project5.html"><img src="Best/IMG_0801_Best.jpg" loading="lazy" alt="Project 5: 606 Trail Streets"></a>
+          <div class="overlay">Project 5: 606 Trail Streets</div>
+          <a href="Project4.html"><img src="Best/IMG_0752_Best.jpg" loading="lazy" alt="Project 4: Ping Tom Memorial Park"></a>
+          <div class="overlay">Project 4: Ping Tom Memorial Park</div>
+          <a href="Project3.html"><img src="Best/IMG_0660_Best.jpg" loading="lazy" alt="Project 3: Downtown Turning Dark"></a>
+          <div class="overlay">Project 3: Downtown Turning Dark</div>
+          <a href="Project2.html"><img src="Best/IMG_0550_Best.jpg" loading="lazy" alt="Project 2: Sidewalk"></a>
+          <div class="overlay">Project 2: Sidewalk</div>
+          <a href="Project1.html"><img src="Best/IMG_0488_Best.jpg" loading="lazy" alt="Project 1: Brownline/Downtown"></a>
+          <div class="overlay">Project 1: Brownline/Downtown</div>
+        </div>
       </div>
       <footer>
         © 2025 David Fernandez — All Rights Reserved
