@@ -78,6 +78,25 @@
 				line-height: 1.5;
 				margin: 0;
 			}
+			
+			@media (max-width: 700px) {
+				.row, .row.reverse {
+					flex-direction: column;
+				}
+				.row img, .text {
+					width: 100%;
+				}
+				.gallery .row:nth-child(even) {
+					flex-direction: column;
+				}
+			}
+			
+			footer {
+				text-align: center;
+				font-size: 0.9em;
+				color: #777;
+				margin-top: 20px;
+			}
 		</style>
 	</head>
 	<body>
@@ -117,6 +136,11 @@
 					<img src="https://cgi.keh.com/media/catalog/product/2/1/212490-2528232_08.webp">
 				</div>
 			</div>
+			
+			<footer>
+				© 2025 David Fernandez — All Rights Reserved
+			</footer>
+			
 		</article>
 	</body>
 <html>
