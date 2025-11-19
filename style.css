@@ -1,11 +1,15 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #faedcd;
+  background-color: #0466c8;
   display: flex;
   justify-content: center;
 }
-      
+
+.title {
+	color: #0466c8;
+}
+
 body {
   align-items: flex-start;
 }
@@ -13,7 +17,7 @@ body {
 .markdown-body {
   width: 100%;
   max-width: 900px;
-  background-color: #fefae0;
+  background-color: #001233;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
@@ -63,7 +67,7 @@ body {
   border: 2px solid #ccc;
   padding: 20px;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #979dac;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   width: 45%;
