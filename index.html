@@ -6,10 +6,31 @@
 		<meta name="description" content="Photography portfolio of David Fernandez — projects, images, and personal growth in photography.">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
 		<style>
+			.title {
+				color: #0466c8;
+			}
+			
+			.text {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border: 2px solid #ccc;
+				padding: 20px;
+				box-sizing: border-box;
+				background-color: #979dac;
+				border-radius: 8px;
+				box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+				width: 100%;
+				font-size: 1rem;
+				color: #333;
+				line-height: 1.5;
+				margin: 0;
+			}
+			
 			html, body {
 				height: 100%;
 				margin: 0;
-				background-color: #faedcd;
+				background-color: #0466c8;
 			}
 			body {
 				align-items: flex-start;
@@ -19,7 +40,7 @@
 			.markdown-body{
 				width: 100%;
 				max-width: 900px;
-				background-color: #fefae0;
+				background-color: #001233;
 				padding: 20px;
 				box-shadow: 0 0 10px rgba(0,0,0,0.1);
 				border-radius: 8px;
@@ -91,12 +112,16 @@
 	</head>
 	<body>
 		<article class="markdown-body">
-			<h1>My Photography Website</h1>
+			<h1 class="title">My Photography Website</h1>
 			<hr>
-			<h2><a href="AboutMe.html" style="text-decoration: none; color: inherit;"> About Me </a></h2>
-			<p>My name is David Fernandez. I recently started photography as a hobby. I took a photography class in college and while I am not aiming for a career in photography I do want to improve my skills.</p>
+			<h2 class="title"><a href="AboutMe.html" style="text-decoration: none; color: inherit;"> About Me </a></h2>
+			
+			<div class="text">
+			<p>Hello, I’m David Fernandez, a 20-year-old hobbyist photographer from Chicago, Illinois. I specialize in landscape, architecture, street, and non-person portrait photography. I started this hobby when I signed up for Art-170A at Northeastern Illinois University and decided to continue to improve my skills in this hobby of mine.</p>
+			</div>
+			
 			<hr>
-			<h2><a href="Projects.html" style="text-decoration: none; color: inherit;"> My Projects</a></h2>
+			<h2 class="title"><a href="Projects.html" style="text-decoration: none; color: inherit;"> My Projects</a></h2>
 			<div class="gallery">
 
 				<a href="Project11.html">
