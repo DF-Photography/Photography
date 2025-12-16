@@ -8,6 +8,7 @@ html, body {
 
 .title {
 	color: #0466c8;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .text-full {
@@ -77,6 +78,7 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   width: 45%;
   font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
   color: #333;
   line-height: 1.5;
   margin: 0;
