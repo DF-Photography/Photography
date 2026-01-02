@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title> Project 14: Old Orchard Mall </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<article class="markdown-body">
+			<h1 class="title"><a href="index.html" style="text-decoration: none; color: inherit;">My Photography Website</a></h1>
+			<h2 class="title">Project 14: Old Orchard Mall</h2>
+			<div class="row">
+				<div class="text text-full">
+					<p><em>January 1st, 2025</em> — New year, new projects. Despite wanting to take new photos my job keeps getting in my way. I finally have time and am glad to do something I really enjoy. My family visited Old Orchard Mall in Skokie Illinois. I took the opportunity to take pictures in 13° weather. I hope to improve my skills in the following year.</p>
+				</div>
+			</div>
+			<br>
+		
+		<div class="slideshow-container">
+		
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 10</div>
+			<img src="Project 14/IMG-2064.jpg" style="width:50%"><br>
+			<div class="text">Shutter Speed: 1/100 <br> Aperture: f/5 <br> ISO: 100 <br> Focal Length: 40 mm </div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 10</div>
+			<img src="Project 14/IMG-2070.jpg" style="width:100%"><br>
+			<div class="text">Shutter Speed: 1/100 <br> Aperture: f/5 <br> ISO: 100 <br> Focal Length: 35 mm</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 10</div>
+			<img src="Project 14/IMG-2074.jpg" style="width:100%"><br>
+			<div class="text">Shutter Speed: 1/30 <br> Aperture: f/4.5 <br> ISO: 100 <br> Focal Length: 56 mm </div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 10</div>
+			<img src="Project 14/IMG-2079.jpg" style="width:50%"><br>
+			<div class="text">Shutter Speed: 1/60 <br> Aperture: f/4 <br> ISO: 100 <br> Focal Length: 40 mm </div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 10</div>
+			<img src="Project 14/IMG-2096.jpg" style="width:100%"><br>
+			<div class="text">Shutter Speed: 1/100 <br> Aperture: f/5 <br> ISO: 100 <br> Focal Length: 35 mm</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 10</div>
+			<img src="Project 14/IMG-2099.jpg" style="width:100%"><br>
+			<div class="text">Shutter Speed: 1/60 <br> Aperture: f/4.5 <br> ISO: 100 <br> Focal Length: 35 mm</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">7 / 10</div>
+			<img src="Project 14/IMG-2114.jpg" style="width:50%"><br>
+			<div class="text">Shutter Speed: 1/200 <br> Aperture: f/5.6 <br> ISO: 1250 <br> Focal Length: 135 mm</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">8 / 10</div>
+			<img src="Project 14/IMG-2118.jpg" style="width:50%"><br>
+			<div class="text">Shutter Speed: 1/200 <br> Aperture: f/5.6 <br> ISO: 1250 <br> Focal Length: 130 mm</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">9 / 10</div>
+			<img src="Project 14/IMG-2141.jpg" style="width:100%"><br>
+			<div class="text">Shutter Speed: 1/60 <br> Aperture: f/4.5 <br> ISO: 320 <br> Focal Length: 50 mm</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">10 / 10</div>
+			<img src="Project 14/IMG-2143.jpg" style="width:100%"><br>
+			<div class="text">Shutter Speed: 1/60 <br> Aperture: f/4.5 <br> ISO: 320 <br> Focal Length: 50 mm</div>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+		
+		</div>
+		<br>
+		
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+			<span class="dot" onclick="currentSlide(5)"></span> 
+			<span class="dot" onclick="currentSlide(6)"></span> 
+			<span class="dot" onclick="currentSlide(7)"></span> 
+			<span class="dot" onclick="currentSlide(8)"></span> 
+			<span class="dot" onclick="currentSlide(9)"></span> 
+			<span class="dot" onclick="currentSlide(10)"></span>
+		</div>
+
+		<footer>
+			© 2025 David Fernandez — All Rights Reserved
+		</footer>
+
+		</article>
+
+
+		<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			}
+		</script>
+	</body>
+</html>	
