@@ -249,30 +249,35 @@ img {vertical-align: middle;}
 	padding: 0;
 }
 
-nav {
+.markdown-body nav {
 	background: #0466c8;
-	padding: 0.25rem;
+	margin-bottom: 1rem;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.markdown-body nav ul {
+	list-style: none;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-nav ul li {
-	display: inline;
-}
-nav ul li a {
+.markdown-body nav ul li a {
 	color: #001233;
 	text-decoration: none;
-	padding: 0.25rem;
-	display: block;
+	padding: 0.5rem 0.75rem;
+	display: flex;
+	align-items: center;
+	font-family: "Times New Roman", Times, serif;
 }
 
-nav ul li a:hover {
+.markdown-body nav ul li a:hover {
 	background-color: #575757;
+	color: #ffffff;
 	border-radius: 5px;
 }
