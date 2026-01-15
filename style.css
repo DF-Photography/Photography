@@ -244,12 +244,17 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-.nav {
+.{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
 	background: #0466c8;
 	padding: 0.25rem;
 }
 
-.nav ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -257,17 +262,17 @@ img {vertical-align: middle;}
 	justify-content: space-around;
 }
 
-.nav ul li {
+nav ul li {
 	display: inline;
 }
-.nav ul li a {
+nav ul li a {
 	color: #001233;
 	text-decoration: none;
 	padding: 0.25rem;
 	display: block;
 }
 
-.nav ul li a:hover {
+nav ul li a:hover {
 	background-color: #575757;
 	border-radius: 5px;
 }
