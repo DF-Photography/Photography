@@ -10,6 +10,28 @@ body {
 	align-items: flex-start;
 	}
 
+.markdown-body hr {
+	margin: 2px 0; /* adjust to taste */
+}
+
+.text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #ccc;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #979dac;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	width: 100%;
+	font-size: 1rem;
+	color: #333;
+	line-height: 1.5;
+	margin: 0;
+	font-family: "Times New Roman", Times, serif;
+	}
+
 .title {
 	color: #0466c8;
 	font-family: "Times New Roman", Times, serif;
