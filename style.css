@@ -75,7 +75,7 @@ footer {
 	}
 	
 .page-rows .row img {
-	width: 45%;
+	flex: 1;
 	height: 100%;
 	object-fit: cover;
 	border: 2px solid #ccc;
@@ -100,7 +100,7 @@ footer {
 	background-color: #979dac;
 	border-radius: 8px;
 	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-	width: 45%;
+	flex: 1;
 	font-size: 1rem;
 	font-family: "Times New Roman", Times, serif;
 	color: #333;
@@ -175,18 +175,6 @@ footer {
 	width: 100%;
 	flex-basis: 100%;
 	}
-
-@media (max-width: 700px) {
-	.row, .row.reverse {
-		flex-direction: column;
-		}
-		.row img, .text {
-			width: 100%;
-			}
-			.gallery .row:nth-child(even) {
-				flex-direction: column;
-				}
-				}
 
 #myModal {
 	display: none;
