@@ -228,6 +228,7 @@ footer {
 	max-width: 1000px;
 	position: relative;
 	margin: auto;
+	touch-action: pan-y;
 	}
 
 /* Hide the images by default */
@@ -249,27 +250,43 @@ footer {
 
 img {vertical-align: middle;}
 	
+/* Controls container */
+.slide-controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	margin: 10px auto;
+}
+
 /* Next & previous buttons */
-.prev, .next {
+a.prev, a.next {
 	cursor: pointer;
-	position: absolute;
-	top: 33%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
+	padding: 12px 18px;
+	color: #ffffff !important;
+	text-decoration: none;
 	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
+	font-size: 25px;
+	transition: 0.3s ease;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 6px;
 	user-select: none;
-	}
-	
-/* Position the "next button" to the right */
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-	}
+}
+
+/* Force link colors to stay white */
+.prev:link,
+.prev:visited,
+.next:link,
+.next:visited {
+	color: #ffffff;
+}
+
+/* Hover effect */
+a.prev:hover,
+a.next:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: #ffffff;
+}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -311,11 +328,6 @@ img {vertical-align: middle;}
 	from {opacity: .4}
 	to {opacity: 1}
 	}
-	
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 
 *{
 	margin: 0;
