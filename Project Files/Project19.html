@@ -1,0 +1,207 @@
+<html>
+	<head>
+		<title> Project 19: Downtown Chicago IV </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+		<link rel="stylesheet" href="../style.css">
+	</head>
+
+	<body>
+		<article class="markdown-body page-rows">
+			<h1 class="title"><a href="../index.html" style="text-decoration: none; color: inherit;">My Photography Website</a></h1>
+		
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../AboutMe.html">About Me</a></li>
+					<li><a href="../Projects.html">Projects List</a></li>
+					<li><a href="../latest.html">Most Recent</a></li>
+				</ul>
+			</nav>
+			<hr>
+			<h2 class="title">Project 19: Downtown Chicago IV</h2>
+			<div class="row">
+				<div class="text text-full">
+					<p><em>September 7th, 2026</em> — This year has definitely been worse than last year. I do think that the presets I just made are probably miles better than last year. I just wished I had more time to do these things. </p>
+				</div>
+			</div>
+			<br>
+			
+			<div class="photo-grid">
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3186.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/1000<br>
+						Aperture: f/8.0<br>
+						ISO: 2000<br>
+						Focal Length: 45 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3228.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/640<br>
+						Aperture: f/5.6<br>
+						ISO: 160<br>
+						Focal Length: 35 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3231.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/320<br>
+						Aperture: f/5.6<br>
+						ISO: 640<br>
+						Focal Length: 85 mm
+						</p>
+					</div>
+				</div>				
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3284.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 640<br>
+						Aperture: f/5.6<br>
+						ISO: 4000<br>
+						Focal Length: 35 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3293.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/640<br>
+						Aperture: f/5.6<br>
+						ISO: 200<br>
+						Focal Length: 35 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3295.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/640<br>
+						Aperture: f/5.6<br>
+						ISO: 400<br>
+						Focal Length: 35 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3310.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/1000<br>
+						Aperture: f/5.6<br>
+						ISO: 160<br>
+						Focal Length: 45 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3314.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/1000<br>
+						Aperture: f/5.6<br>
+						ISO: 1000<br>
+						Focal Length: 110 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo landscape">
+					<img src="../Photos/Project 19/IMG-3328.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/800<br>
+						Aperture: f/4.0<br>
+						ISO: 400<br>
+						Focal Length: 35 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 19/IMG-3334.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/640<br>
+						Aperture: f/4.0<br>
+						ISO: 100<br>
+						Focal Length: 35 mm
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="photoModal" class="photo-modal">
+				<span class="modal-close">&times;</span>
+				<div class="modal-content">
+					<div class="modal-image-container">
+						<img id="modalImage" src="" alt="">
+					</div>
+					<div class="modal-text" id="modalText">
+					</div>
+				</div>
+			</div>
+
+		<footer>
+			© 2025 David Fernandez — All Rights Reserved
+		</footer>
+
+		</article>
+
+
+		<script>
+			const photos = document.querySelectorAll(".photo");
+			const modal = document.getElementById("photoModal");
+			const modalImage = document.getElementById("modalImage");
+			const modalText = document.getElementById("modalText");
+			const closeButton = document.querySelector(".modal-close");
+
+			photos.forEach(photo => {
+				photo.addEventListener("click", function() {
+					const image = photo.querySelector("img");
+					const info = photo.querySelector(".photo-info");
+					modalImage.src = image.src;
+					modalImage.alt = image.alt;
+					modalText.innerHTML = info.innerHTML;
+					modal.style.display = "flex";
+				});
+			});
+
+			closeButton.addEventListener("click", function() {
+				modal.style.display = "none";
+			});
+
+			modal.addEventListener("click", function(event) {
+				if (event.target === modal) {
+					modal.style.display = "none";
+				}
+			});
+
+			document.addEventListener("keydown", function(event) {
+				if (event.key === "Escape") {
+					modal.style.display = "none";
+				}
+			});
+		</script>
+	</body>
+</html>	

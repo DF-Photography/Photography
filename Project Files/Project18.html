@@ -1,0 +1,207 @@
+<html>
+	<head>
+		<title> Project 18: Downtown Chicago III </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+		<link rel="stylesheet" href="../style.css">
+	</head>
+
+	<body>
+		<article class="markdown-body page-rows">
+			<h1 class="title"><a href="../index.html" style="text-decoration: none; color: inherit;">My Photography Website</a></h1>
+		
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../AboutMe.html">About Me</a></li>
+					<li><a href="../Projects.html">Projects List</a></li>
+					<li><a href="../latest.html">Most Recent</a></li>
+				</ul>
+			</nav>
+			<hr>
+			<h2 class="title">Project 18: Downtown Chicago III</h2>
+			<div class="row">
+				<div class="text text-full">
+					<p><em>June 4th, 2026</em> — Note to self, triple check settings. I didn’t realize that for the first hour that I left my shutter speed to 1/3200. My camera had to compensate by raising my ISO. Fortunately it wasn’t too difficult to correct in lightroom. </p>
+				</div>
+			</div>
+			<br>
+			
+			<div class="photo-grid">
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2788.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/3200 <br> 
+						Aperture: f/5.6 <br> 
+						ISO: 2000 <br> 
+						Focal Length: 55 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2798.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/3200 <br> 
+						Aperture: f/4.5 <br> 
+						ISO: 5000 <br> 
+						Focal Length: 18 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2801.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/3200 <br> 
+						Aperture: f/4.5 <br> 
+						ISO: 2500 <br> 
+						Focal Length: 18 mm
+						</p>
+					</div>
+				</div>				
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2822.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/3200 <br> 
+						Aperture: f/4.5 <br> 
+						ISO: 800 <br> 
+						Focal Length: 18 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2842.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/3200 <br> 
+						Aperture: f/5.6 <br> 
+						ISO: 1250 <br> 
+						Focal Length: 55 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2859.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/400 <br> 
+						Aperture: f/4.5 <br> 
+						ISO: 100 <br> 
+						Focal Length: 32 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2930.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/400 <br> 
+						Aperture: f/5.6 <br> 
+						ISO: 400 <br> 
+						Focal Length: 55 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo landscape">
+					<img src="../Photos/Project 18/IMG-2943.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/400 <br> 
+						Aperture: f/4.5 <br> 
+						ISO: 100 <br> 
+						Focal Length: 18 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2955.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/400 <br> 
+						Aperture: f/5.6 <br> 
+						ISO: 800 <br> 
+						Focal Length: 55 mm
+						</p>
+					</div>
+				</div>
+				
+				<div class="photo portrait">
+					<img src="../Photos/Project 18/IMG-2968.jpg">
+					<div class="photo-info">
+						<p>
+						Shutter Speed: 1/400 <br> 
+						Aperture: f/5.6 <br> 
+						ISO: 100 <br> 
+						Focal Length: 55 mm
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="photoModal" class="photo-modal">
+				<span class="modal-close">&times;</span>
+				<div class="modal-content">
+					<div class="modal-image-container">
+						<img id="modalImage" src="" alt="">
+					</div>
+					<div class="modal-text" id="modalText">
+					</div>
+				</div>
+			</div>
+
+		<footer>
+			© 2025 David Fernandez — All Rights Reserved
+		</footer>
+
+		</article>
+
+
+		<script>
+			const photos = document.querySelectorAll(".photo");
+			const modal = document.getElementById("photoModal");
+			const modalImage = document.getElementById("modalImage");
+			const modalText = document.getElementById("modalText");
+			const closeButton = document.querySelector(".modal-close");
+
+			photos.forEach(photo => {
+				photo.addEventListener("click", function() {
+					const image = photo.querySelector("img");
+					const info = photo.querySelector(".photo-info");
+					modalImage.src = image.src;
+					modalImage.alt = image.alt;
+					modalText.innerHTML = info.innerHTML;
+					modal.style.display = "flex";
+				});
+			});
+
+			closeButton.addEventListener("click", function() {
+				modal.style.display = "none";
+			});
+
+			modal.addEventListener("click", function(event) {
+				if (event.target === modal) {
+					modal.style.display = "none";
+				}
+			});
+
+			document.addEventListener("keydown", function(event) {
+				if (event.key === "Escape") {
+					modal.style.display = "none";
+				}
+			});
+		</script>
+	</body>
+</html>
